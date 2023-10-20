@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03fc9b2d-55db-4de3-b460-893e2630699f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-oop1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Prodotto.java" afterDir="false" />
+    <list default="true" id="03fc9b2d-55db-4de3-b460-893e2630699f" name="Changes" comment="add prodotto and exercise 1">
+      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/bank/Conto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/bank/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +40,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/classe 7 corso java/java-oop1/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.org.lessons.java.bank.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.lessons.java.shop.Main" />
       <module name="java-oop1" />
@@ -59,8 +54,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.lessons.java.bank.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lessons.java.bank.Main" />
+      <module name="java-oop1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lessons.java.bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.lessons.java.bank.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -74,6 +83,34 @@
       <option name="presentableId" value="Default" />
       <updated>1697803729576</updated>
     </task>
+    <task id="LOCAL-00001" summary="add prodotto and exercise 1">
+      <option name="closed" value="true" />
+      <created>1697809765263</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697809765263</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add prodotto and exercise 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add prodotto and exercise 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/org/lessons/java/bank/Main.java</url>
+          <line>6</line>
+          <properties class="org.lessons.java.bank.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
