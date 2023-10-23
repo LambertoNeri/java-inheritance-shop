@@ -1,12 +1,11 @@
 package org.lessons.java.shop;
 
-import java.sql.SQLOutput;
-import java.util.Arrays;
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class Main {
 
-    public static Prodotto[] prodotti = new Prodotto[3];
+    public static Product[] products = new Product[3];
     public static void main(String[] args) {
         //importo la classe scanner
         Scanner scan = new Scanner(System.in);
@@ -17,23 +16,24 @@ public class Main {
         //creo un ciclo per creare i 3 prodotti
         for(int i = 0; i < 3; i++ ) {
             System.out.println("inserisci il nome del " + (i+1) +"° prodotto");
-            String nome = scan.nextLine();
+            String name = scan.nextLine();
             System.out.println("inserisci la descrizione del " + (i+1) +"° prodotto");
-            String descrizione = scan.nextLine();
+            String description = scan.nextLine();
             System.out.println("inserisci il prezzo del " + (i+1) +"° prodotto");
-            int prezzo = scan.nextInt();
+            String price = scan.nextLine();
             System.out.println("inserisci l'iva del " + (i+1) +"° prodotto");
-            int iva = scan.nextInt();
-            String dump = scan.nextLine();
+            String vat = scan.nextLine();
 
             //invoco il costruttore
-            prodotti[i] = new Prodotto(nome, descrizione, prezzo, iva);
+            products[i] = new Product(name, description, new BigDecimal(price), new BigDecimal(vat));
         }
 
-        for (int i = 0; i < prodotti.length; i++){
-            System.out.println("Nome completo: "+prodotti[i].getNomeEsteso());
-            System.out.println("Prezzo compreso di iva: "+prodotti[i].getPrezzoIva());
+        for (int i = 0; i < products.length; i++){
+            System.out.println("Nome completo: "+products[i].getFullName());
+            System.out.println("Prezzo compreso di iva: "+products[i].getFinalPrice()+"€");
         }
+
+        scan.close();
 
     }
 }

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03fc9b2d-55db-4de3-b460-893e2630699f" name="Changes" comment="add bank and exercise 2" />
+    <list default="true" id="03fc9b2d-55db-4de3-b460-893e2630699f" name="Changes" comment="idea ha avuto un'idea">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Product.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,15 +33,16 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/classe 7 corso java/java-oop1/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "onboarding.tips.debug.path": "C:/classe 7 corso java/java-oop1/src/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="Application.org.lessons.java.bank.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.lessons.java.shop.Main" />
       <module name="java-oop1" />
@@ -65,8 +71,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.lessons.java.bank.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.org.lessons.java.bank.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -103,13 +109,22 @@
       <option name="project" value="LOCAL" />
       <updated>1697816878392</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="idea ha avuto un'idea">
+      <option name="closed" value="true" />
+      <created>1697817085949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697817085949</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add prodotto and exercise 1" />
     <MESSAGE value="add bank and exercise 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bank and exercise 2" />
+    <MESSAGE value="idea ha avuto un'idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea ha avuto un'idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
