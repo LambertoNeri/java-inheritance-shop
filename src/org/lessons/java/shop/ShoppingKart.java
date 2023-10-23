@@ -57,16 +57,21 @@ public class ShoppingKart {
                     System.out.println("La TV è smart? ");
                     System.out.println("1) Si");
                     System.out.println("2) No");
-                    int sino= scan.nextInt();
+                    int sino = scan.nextInt();
                     scan.nextLine();
                     if(sino == 1) {
                         smart = true;
-                    } else {
+                    } else if (sino == 2) {
                         smart = false;
+                    } else{
+                        System.out.println("Scelta non valida");
+                        System.out.println("Terminazione programma...");
+                        break;
                     }
                     //invoco il costruttore TV
                     TV[] tv = new TV[i];
                     shoppingKart[i] = new TV(name, description, new BigDecimal(price), new BigDecimal(vat), size, smart);
+
                 } else if (productType == 3) {
                     Boolean wired;
                     //richiedo Type variables
@@ -79,8 +84,12 @@ public class ShoppingKart {
                     scan.nextLine();
                     if(sino == 1) {
                         wired = true;
-                    } else {
+                    } else if (sino == 2){
                         wired = false;
+                    } else {
+                        System.out.println("Scelta non valida");
+                        System.out.println("Terminazione programma...");
+                        break;
                     }
 
 
@@ -95,6 +104,7 @@ public class ShoppingKart {
             }
         }
 
+        System.out.println("Il tuo carrello contiene " + shoppingKart.length + " oggetti, di seguito troverai i dettagli: ");
         BigDecimal totalPrice = new BigDecimal(0);
         for (int i = 0; i < shoppingKart.length; i++) {
 
@@ -102,7 +112,21 @@ public class ShoppingKart {
             System.out.println("Nome completo: " + shoppingKart[i].getFullName());
             System.out.println("Prezzo compreso di iva: " + shoppingKart[i].getFinalPrice() + "€");
         }
-        System.out.println("Prezzo totale carrello " + totalPrice + "€");
+        System.out.println("Prezzo totale carrello: " + totalPrice + "€");
+        System.out.println("Procedere con l'aqcuisto?");
+        System.out.println("1) Si");
+        System.out.println("2) No");
+        int sino = scan.nextInt();
+        scan.nextLine();
+        if(sino == 1 ){
+            System.out.println("Acquisto completato, totale pagato: " +totalPrice+ "€");
+        } else if (sino == 2){
+            System.out.println("Transazione annullata...");
+        }else {
+            System.out.println("Scelta non valida");
+            System.out.println("Terminazione programma...");
+        }
+
         scan.close();
     }
 
