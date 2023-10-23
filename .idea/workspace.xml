@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03fc9b2d-55db-4de3-b460-893e2630699f" name="Changes" comment="idea ha avuto un'idea">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="03fc9b2d-55db-4de3-b460-893e2630699f" name="Changes" comment="adapted all int into BigDecimal + start new repo">
+      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Headphones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/ShoppingKart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/TV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2X1jxrQV4225LA0vznMyP5xGiDh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -117,14 +121,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697817085949</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adapted all int into BigDecimal + start new repo">
+      <option name="closed" value="true" />
+      <created>1698064430829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698064430829</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add prodotto and exercise 1" />
     <MESSAGE value="add bank and exercise 2" />
     <MESSAGE value="idea ha avuto un'idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea ha avuto un'idea" />
+    <MESSAGE value="adapted all int into BigDecimal + start new repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="adapted all int into BigDecimal + start new repo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -137,6 +150,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/lessons/java/shop/Headphones.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

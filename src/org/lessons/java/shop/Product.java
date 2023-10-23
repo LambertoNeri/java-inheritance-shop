@@ -85,4 +85,8 @@ public class Product {
     public void setVat(BigDecimal vat) {
         this.vat = vat;
     }
+
+    public BigDecimal getPrice() {
+        return price;
+    }
 }
