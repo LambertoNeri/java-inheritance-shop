@@ -111,7 +111,12 @@ public class ShoppingKart {
             totalPrice = totalPrice.add(shoppingKart[i].getFinalPrice());
             System.out.println("Nome completo: " + shoppingKart[i].getFullName());
             System.out.println("Prezzo compreso di iva: " + shoppingKart[i].getFinalPrice() + "€");
+            System.out.println("");
+            System.out.println("Dettagli articolo: ");
+            System.out.println(shoppingKart[i].toString());
+            System.out.println("");
         }
+        System.out.println("");
         System.out.println("Prezzo totale carrello: " + totalPrice + "€");
         System.out.println("Procedere con l'aqcuisto?");
         System.out.println("1) Si");

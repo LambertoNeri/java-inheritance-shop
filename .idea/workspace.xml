@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03fc9b2d-55db-4de3-b460-893e2630699f" name="Changes" comment="add the logic to insert products">
+    <list default="true" id="03fc9b2d-55db-4de3-b460-893e2630699f" name="Changes" comment="add some logic to the program (else if to check the answers and break program if not valid answer given)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Headphones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Headphones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/ShoppingKart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/ShoppingKart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Smartphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/TV.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698074748427</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add some logic to the program (else if to check the answers and break program if not valid answer given)">
+      <option name="closed" value="true" />
+      <created>1698075738700</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698075738700</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,7 +176,8 @@
     <MESSAGE value="adapted all int into BigDecimal + start new repo" />
     <MESSAGE value="add Headphones.java, Smartphone.java, Tv.java, ShooppingKart.java and add for ea extends the extra variables" />
     <MESSAGE value="add the logic to insert products" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the logic to insert products" />
+    <MESSAGE value="add some logic to the program (else if to check the answers and break program if not valid answer given)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some logic to the program (else if to check the answers and break program if not valid answer given)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -178,15 +190,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/org/lessons/java/shop/ShoppingKart.java</url>
-          <line>6</line>
-          <properties class="org.lessons.java.shop.ShoppingKart" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/org/lessons/java/shop/Headphones.java</url>

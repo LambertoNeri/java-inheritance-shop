@@ -10,4 +10,18 @@ public class TV extends Product {
         this.size = size;
         this.smart = smart;
     }
+
+    @Override
+    public String toString() {
+        String sino;
+        if(smart == true){
+            sino = "Si";
+        } else {
+            sino = "No";
+        }
+        return this.getName() +
+                ", Dimensioni: '" + size + '\'' +
+                ", Smart: " + sino +
+                '}';
+    }
 }

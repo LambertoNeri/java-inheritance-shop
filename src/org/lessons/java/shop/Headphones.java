@@ -13,4 +13,18 @@ public class Headphones extends Product{
         this.color = color;
         this.wired = wired;
     }
+
+    @Override
+    public String toString() {
+        String sino;
+        if(wired == true){
+            sino = "Si";
+        } else {
+            sino = "No";
+        }
+        return this.getName() +
+                ", Colore Cuffie: " + color +
+                ", Wireless: " + sino +
+                '}';
+    }
 }

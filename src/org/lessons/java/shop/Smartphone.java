@@ -10,4 +10,12 @@ public class Smartphone extends Product{
         this.imei = imei;
         this.memory = memory;
     }
+
+    @Override
+    public String toString() {
+        return this.getName() +
+                ", Codice IMEI: " + imei +
+                ", Memoria: " + memory + "MB" +
+                '}';
+    }
 }
