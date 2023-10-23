@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03fc9b2d-55db-4de3-b460-893e2630699f" name="Changes" comment="adapted all int into BigDecimal + start new repo">
-      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Headphones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/ShoppingKart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Smartphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/TV.java" afterDir="false" />
+    <list default="true" id="03fc9b2d-55db-4de3-b460-893e2630699f" name="Changes" comment="add Headphones.java, Smartphone.java, Tv.java, ShooppingKart.java and add for ea extends the extra variables">
+      <change afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Mainprova.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/ShoppingKart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/ShoppingKart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/TV.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +46,22 @@
     "onboarding.tips.debug.path": "C:/classe 7 corso java/java-oop1/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ShoppingKart">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.lessons.java.shop.Main" />
+      <module name="java-oop1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lessons.java.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingKart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lessons.java.shop.ShoppingKart" />
       <module name="java-oop1" />
       <extension name="coverage">
         <pattern>
@@ -75,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShoppingKart" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.lessons.java.bank.Main" />
       </list>
@@ -129,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698064430829</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add Headphones.java, Smartphone.java, Tv.java, ShooppingKart.java and add for ea extends the extra variables">
+      <option name="closed" value="true" />
+      <created>1698066423288</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698066423288</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,7 +159,8 @@
     <MESSAGE value="add bank and exercise 2" />
     <MESSAGE value="idea ha avuto un'idea" />
     <MESSAGE value="adapted all int into BigDecimal + start new repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="adapted all int into BigDecimal + start new repo" />
+    <MESSAGE value="add Headphones.java, Smartphone.java, Tv.java, ShooppingKart.java and add for ea extends the extra variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Headphones.java, Smartphone.java, Tv.java, ShooppingKart.java and add for ea extends the extra variables" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -150,6 +173,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/org/lessons/java/shop/ShoppingKart.java</url>
+          <line>6</line>
+          <properties class="org.lessons.java.shop.ShoppingKart" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/org/lessons/java/shop/Headphones.java</url>

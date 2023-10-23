@@ -39,7 +39,7 @@ public class Product {
     }
 
     public String getFullName() {
-        return price + "-" + name;
+        return id + "-" + name;
     }
 
     private String getPaddedCode(){
